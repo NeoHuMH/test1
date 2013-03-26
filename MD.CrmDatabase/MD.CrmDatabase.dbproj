@@ -55,8 +55,6 @@
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v10.0\TeamData\Microsoft.Data.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Scripts" />
-    <Folder Include="Scripts\Pre-Deployment" />
-    <Folder Include="Scripts\Post-Deployment" />
     <Folder Include="Data Generation Plans" />
     <Folder Include="Schema Comparisons" />
     <Folder Include="Properties\" />
@@ -128,12 +126,6 @@
     <Build Include="Properties\Database.sqlpermissions">
       <ModelBuilderType>Permissions</ModelBuilderType>
     </Build>
-    <PreDeploy Include="Scripts\Pre-Deployment\Script.PreDeployment.sql">
-      <SubType>Code</SubType>
-    </PreDeploy>
-    <PostDeploy Include="Scripts\Post-Deployment\Script.PostDeployment.sql">
-      <SubType>Code</SubType>
-    </PostDeploy>
   </ItemGroup>
   <ItemGroup>
     <BuildContributorArgument Include="OutDir=$(OutDir)" />
