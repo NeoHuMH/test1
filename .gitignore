@@ -23,7 +23,10 @@ Thumbs.db
 *.lib
 *.sbr
 *.dbmdl
+*.CrmDatabase.dbmdl
+MD.CrmDatabase/MD.CrmDatabase.dbmdl
 obj/
 [Rr]elease*/
 _ReSharper*/
 [Tt]est[Rr]esult*
+*.CrmDatabase.dbmdl
