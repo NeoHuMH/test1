@@ -33,9 +33,6 @@ EndProject
 Project("{C8D11400-126E-41CD-887F-60BD40844F9E}") = "MD.CrmDatabase", "MD.CrmDatabase\MD.CrmDatabase.dbproj", "{67CBC824-A49E-4E9B-A947-360F3DFE65C3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Document", "Document", "{3CA51D7D-2672-4523-8C4E-65BA6112931F}"
-	ProjectSection(SolutionItems) = preProject
-		Document\Crm.xls = Document\Crm.xls
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

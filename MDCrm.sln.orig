@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MD.Core", "MD.Core", "{E7981926-A8E2-4705-8126-EC72A1A75F1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MD.SQL", "MD.SQL", "{4A4F1171-D8BA-4B8A-96FE-FBEBCB08EFDD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MD.Web", "MD.Web", "{705AE7C3-CDB5-4FDA-B58E-A5678A25723C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MD.Business", "MD.Business\MD.Business.csproj", "{367F960E-DAFF-461A-8BB3-BB0AD66A9DF5}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MD.Crm.Web", "MD.Crm.Web\", "{C1FDD090-6619-4C4D-AB86-679ACE72403D}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv2.0"
+		Debug.AspNetCompiler.VirtualPath = "/MD.Crm.Web"
+		Debug.AspNetCompiler.PhysicalPath = "MD.Crm.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\MD.Crm.Web\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/MD.Crm.Web"
+		Release.AspNetCompiler.PhysicalPath = "MD.Crm.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\MD.Crm.Web\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "3509"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{C8D11400-126E-41CD-887F-60BD40844F9E}") = "MD.CrmDatabase", "MD.CrmDatabase\MD.CrmDatabase.dbproj", "{67CBC824-A49E-4E9B-A947-360F3DFE65C3}"
+EndProject
+<<<<<<< HEAD
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MD.Entity", "MD.Entity\MD.Entity.csproj", "{8D9B8E77-2C82-4911-9FB0-4EB2353E8623}"
+=======
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Document", "Document", "{3CA51D7D-2672-4523-8C4E-65BA6112931F}"
+	ProjectSection(SolutionItems) = preProject
+		Document\Crm.xls = Document\Crm.xls
+	EndProjectSection
+>>>>>>> 9d828f05c132df647eb241e03d114b43eb093ca9
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{367F960E-DAFF-461A-8BB3-BB0AD66A9DF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{367F960E-DAFF-461A-8BB3-BB0AD66A9DF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{367F960E-DAFF-461A-8BB3-BB0AD66A9DF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{367F960E-DAFF-461A-8BB3-BB0AD66A9DF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1FDD090-6619-4C4D-AB86-679ACE72403D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1FDD090-6619-4C4D-AB86-679ACE72403D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1FDD090-6619-4C4D-AB86-679ACE72403D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1FDD090-6619-4C4D-AB86-679ACE72403D}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8D9B8E77-2C82-4911-9FB0-4EB2353E8623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D9B8E77-2C82-4911-9FB0-4EB2353E8623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D9B8E77-2C82-4911-9FB0-4EB2353E8623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D9B8E77-2C82-4911-9FB0-4EB2353E8623}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{367F960E-DAFF-461A-8BB3-BB0AD66A9DF5} = {E7981926-A8E2-4705-8126-EC72A1A75F1A}
+		{8D9B8E77-2C82-4911-9FB0-4EB2353E8623} = {E7981926-A8E2-4705-8126-EC72A1A75F1A}
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3} = {4A4F1171-D8BA-4B8A-96FE-FBEBCB08EFDD}
+		{C1FDD090-6619-4C4D-AB86-679ACE72403D} = {705AE7C3-CDB5-4FDA-B58E-A5678A25723C}
+	EndGlobalSection
+EndGlobal

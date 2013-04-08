@@ -24,9 +24,13 @@ Thumbs.db
 *.sbr
 *.dbmdl
 *.CrmDatabase.dbmdl
-MD.CrmDatabase/MD.CrmDatabase.dbmdl
 obj/
 [Rr]elease*/
 _ReSharper*/
 [Tt]est[Rr]esult*
 *.CrmDatabase.dbmdl
+*.LOCAL
+*.BASE
+*.REMOTE
+MD.CrmDatabase/MD.CrmDatabase.dbmdl
+*.schemaview
