@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MD.Web", "MD.Web", "{705AE7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MD.Business", "MD.Business\MD.Business.csproj", "{367F960E-DAFF-461A-8BB3-BB0AD66A9DF5}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MD.Crm.Web", "MD.Crm.Web", "{C1FDD090-6619-4C4D-AB86-679ACE72403D}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MD.Crm.Web", "MD.Crm.Web\", "{C1FDD090-6619-4C4D-AB86-679ACE72403D}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv2.0"
 		Debug.AspNetCompiler.VirtualPath = "/MD.Crm.Web"
@@ -31,6 +31,11 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MD.Crm.Web", "MD.Crm.Web", 
 	EndProjectSection
 EndProject
 Project("{C8D11400-126E-41CD-887F-60BD40844F9E}") = "MD.CrmDatabase", "MD.CrmDatabase\MD.CrmDatabase.dbproj", "{67CBC824-A49E-4E9B-A947-360F3DFE65C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Document", "Document", "{25E392C8-3B39-4465-B73F-7A0445B6F6EA}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\user\Downloads\Crm.xls = C:\Users\user\Downloads\Crm.xls
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
